@@ -14,8 +14,8 @@ class MoneyTest < Minitest::Test
   end
 
   def test_should_add_money
-    money1 = Money.new("$1.00")
-    money2 = Money.new("$2.00")
-    assert_equal 2.00, money1 + money2
+    money1 = Money.new("$0.10")
+    money2 = Money.new("$0.20")
+    assert_equal 0.30, money1 + money2
   end
 end
